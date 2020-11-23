@@ -1,0 +1,32 @@
+=> Contribution by Coral Jain:
+
+* Defined the problem statement -- why do we need to choose this problem and what is the importance and need to solve this problem.
+
+* Which algorithm can be used to used to solve this problem was also an issue as we need better accuracy in a multi-class SVM like ours and computation power is an issue as well for efficient implementation.
+
+* Determined how to go about solving our problem. Since the binary classification on the same dataset has been done already, we tried following the one-vs-all technique and chose to solve four-class classification using four binary classification problem.
+
+* Designed preprocessing steps for the data. One of the examples is providing labels to the columns. If the data does not have category "negative", it has to be assigned the keyword "hyperthyroid" or "hypothyroid" to the corresponding row. There were a number of helper functions that were defined as a part of preprocessing.
+
+* Performed Exploratory Data Analysis technique where objective was to make corrections before training model. In this step imputation of missing values for two kinds of values given in our data was carried out.
+
+*Determined how to visualize data. iPYthon, matplotlib are some of ways and we tried to use scatter() in order to visual the data.
+
+* Contributed to structuring formatting and writing the report.
+
+
+=> Contribution by Yashovardhan Sharma:
+
+* Tried to find the best dataset amongst many datasets available on the internet on various. We chose a different dataset (based on samples from India)at the start but then changed it due to some features that caused problem in classification.
+
+* Determined what kind of kernel best solves the problem. Polynomial kernel was chosen out of radial base function, sigmoid and polynomial kernel.
+
+* Came up with a way to generate classification report and how can we help show different metrics for better understanding of classification. This can be seen in the classification report.
+
+*Determined how to visualize data. iPYthon, matplotlib are some of ways and we tried to use scatter() in order to visual the data.
+
+* Identified which metrics fitted best for our classification problem. The major challenge was to choose the other metrics and how to go about using F1 score as a metric and we were not aware about it. The confusion matrix was also chosen to be one of the metrics.
+
+* Came up with a way to generate classification report and how can we help show different metrics for better understanding of classification. This can be seen in the classification report.
+
+* Contributed to structuring formatting and writing the report.
